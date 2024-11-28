@@ -1,8 +1,11 @@
 import socket
 
+ADRESSE_SERVER = "195.15.222.34"
+PORT = 5010
+
 if __name__ == "__main__":
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(("195.15.222.34", 50005))
+    server_socket.bind((ADRESSE_SERVER, PORT))
 
     print("===== Server Starting =====")
 
