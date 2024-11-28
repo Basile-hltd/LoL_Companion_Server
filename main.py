@@ -2,7 +2,7 @@ import socket
 
 if __name__ == "__main__":
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(("0.0.0.0", 50005))
+    server_socket.bind(("195.15.222.34", 50005))
 
     print("===== Server Starting =====")
 
