@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile LoL Companion</title>
+
+    <style>
+        body {
+            background-color: #1a242c;
+        }
+
+        h1 {
+            color: #8F8F8F;
+            text-align: center;
+            padding: 50px 0;
+            margin: 0;
+        }
+
+        .red-border {
+            border: 2px solid #9E2A2B;
+            width: auto;
+            height: auto;
+        }
+
+        .blue-border {
+            border: 2px solid #335C67;
+            width: auto;
+            height: auto;
+        }
+
+        .ban-row {
+            display: flex;
+            justify-content: center;
+            gap: 30px; /* Adds gap between the two sets */
+            margin-bottom: 30px;
+        }
+
+        .ban-set {
+            display: flex;
+            gap: 5px; /* Adds gap between images in each set */
+        }
+
+        .pick-row {
+            display: flex;
+            justify-content: center;
+            gap: 400px; /* Adds gap between the two sets */
+        }
+
+        .pick-set {
+            display: flex;
+            flex-direction: column;
+            gap: 5px; /* Adds gap between images in each set */
+            align-items: flex-end;
+        }
+
+        .ban-text {
+            color: #8F8F8F;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px; /* Space before the ban-row */
+        }
+
+        .pick-item {
+            display: flex;
+            align-items: center; /* Align text and image vertically */
+            gap: 30px; /* Adds gap between text and image */
+        }
+
+        .ban-text-container {
+            display: flex;
+            justify-content: center;
+            gap: 500px; /* Adjust gap between 'Ban allié' and 'Ban ennemi' */
+        }
+
+        .role-text {
+            color: #8F8F8F; /* Example color, change it as needed */
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Mobile LoL Companion</h1>
+
+    <div class="ban-text">
+        <div class="ban-text-container">
+            <span>Ban allié</span>
+            <span>Ban ennemi</span>
+        </div>
+    </div>
+
+    <div class="ban-row">
+        <div class="ban-set">
+            <img src="https://via.placeholder.com/80" alt="Image 1" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 2" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 3" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 4" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 5" class="red-border">
+            </div>
+
+            <div class="ban-set">
+            <img src="https://via.placeholder.com/80" alt="Image 6" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 7" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 8" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 9" class="red-border">
+            <img src="https://via.placeholder.com/80" alt="Image 10" class="red-border">
+        </div>
+    </div>
+
+    <div class="pick-row">
+        <div class="pick-set">
+            <div class="pick-item">
+                <span class="role-text">Jungle</span>
+                <img src="https://via.placeholder.com/80" alt="Image 11" class="blue-border">
+            </div>
+            <div class="pick-item">
+                <span class="role-text">Top</span>
+                <img src="https://via.placeholder.com/80" alt="Image 11" class="blue-border">
+            </div>
+            <div class="pick-item">
+                <span class="role-text">Bot</span>
+                <img src="https://via.placeholder.com/80" alt="Image 11" class="blue-border">
+            </div>
+            <div class="pick-item">
+                <span class="role-text">Mid</span>
+                <img src="https://via.placeholder.com/80" alt="Image 11" class="blue-border">
+            </div>
+            <div class="pick-item">
+                <span class="role-text">Support</span>
+                <img src="https://via.placeholder.com/80" alt="Image 11" class="blue-border">
+            </div>
+        </div>
+
+        <div class="pick-set">
+            <img src="https://via.placeholder.com/80" alt="Image 16" class="blue-border">
+            <img src="https://via.placeholder.com/80" alt="Image 17" class="blue-border">
+            <img src="https://via.placeholder.com/80" alt="Image 18" class="blue-border">
+            <img src="https://via.placeholder.com/80" alt="Image 19" class="blue-border">
+            <img src="https://via.placeholder.com/80" alt="Image 20" class="blue-border">
+        </div>
+    </div>
+</body>
+</html>
